@@ -4,6 +4,8 @@ An MCP App server for the CityJS London 2026 conference. Exposes the schedule, s
 
 Built on [`@modelcontextprotocol/ext-apps`](https://www.npmjs.com/package/@modelcontextprotocol/ext-apps).
 
+Heavily modified version of Tejas Kumar's [tejasq/basically-mcp-apps](https://github.com/tejasq/basically-mcp-apps) — thanks Tejas!
+
 ## Tools
 
 | Tool | Arguments | Widget |
