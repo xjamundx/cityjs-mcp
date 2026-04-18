@@ -6,6 +6,8 @@ Built on [`@modelcontextprotocol/ext-apps`](https://www.npmjs.com/package/@model
 
 Heavily modified version of Tejas Kumar's [tejasq/basically-mcp-apps](https://github.com/tejasq/basically-mcp-apps) — thanks Tejas!
 
+![Screenshot of the CityJS MCP app running in Claude](./claude.png)
+
 ## Tools
 
 | Tool | Arguments | Widget |
@@ -54,6 +56,10 @@ stdio transport:
 ```bash
 npm run serve:stdio
 ```
+
+## Debugging
+
+For iterating on widgets without a full MCP client, use the [`basic-host` example](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/basic-host) from the `ext-apps` repo. It's a minimal host that renders MCP App UI resources directly, making it the quickest way to inspect widget markup, styles, and host-context behavior while developing.
 
 ## Exposing the server publicly via Cloudflare
 
