@@ -1,0 +1,779 @@
+{
+  "speakers": [
+    {
+      "name": "Tejas Kumar",
+      "bio": "Tejas has been writing code since he was 8 years old. Today, Tejas loves code, loves people, and loves traveling around the world talking to people about code.",
+      "company": "Director, Developer Relations @ IBM",
+      "talkTitle": "The New UX",
+      "description": "UX is changing with AI, where we go from clicking on boxes that are questionably accessible to just speaking things into existence. This talk will showcase how the role of JavaScript developers is changing in the AI age with practical steps and live demos.",
+      "date": "2026-04-17T09:30+00:00",
+      "tags": [
+        "Tejas",
+        "AIDrivenUX",
+        "VoiceMultimodalInterfaces",
+        "FutureofJavaScript"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/4sOSeeOsCUN0fKVV68kNrJ/fbd52329b05060edd140b81aacc03b88/tejaskumar.png",
+      "twitter": "tejaskumar_",
+      "bluesky": "tej.as",
+      "linkedin": "tejasq"
+    },
+    {
+      "name": "Matteo Collina",
+      "bio": "Matteo is the Co-Founder and CTO of Platformatic.dev with the goal to remove all friction from backend development. He is also a prolific Open Source author in the JavaScript ecosystem and modules he maintain are downloaded more than 12 billion times a year. Previously he was Chief Software Architect at NearForm, the best professional services company in the JavaScript ecosystem. In 2014, he defended his Ph.D. thesis titled \"Application Platforms for the Internet of Things\". Matteo is a member of the Node.js Technical Steering Committee focusing on streams, diagnostics and http. He is also the author of the fast logger Pino and of the Fastify web framework. Matteo is an renowed international speaker after more than 60 conferences, including OpenJS World, Node.js Interactive, NodeConf.eu, NodeSummit, JSConf.Asia, WebRebels, and JsDay just to name a few. He is also co-author of the book \"Node.js Cookbook, Third Edition\" edited by Packt. In the summer he loves sailing the Sirocco.",
+      "company": "Platformatic Co-Founder & CTO- Node.js TSC member",
+      "talkTitle": "The New Node.js: Built-in Batteries and the Road Ahead",
+      "description": "Not long ago, starting a Node.js project meant installing lots of packages just to handle environment variables, run tests, or use TypeScript. Now, those days are behind us, and 2026 is the time to make the switch.\n\nNode.js is stronger than ever, but there’s still a big issue: many people keep using outdated versions with known security problems. We need to talk about the current LTS schedule and why you should be on Node 24.\n\nThis session will cover both the roadmap and hands-on examples. You’ll see how much you can do with just Node.js and your chosen framework, often with far fewer extra packages. We’ll look at built-in TypeScript support that works right away, so you can write and run TypeScript without a build step. We’ll also cover testing with node:test and node:assert, built-in .env configuration, and native fetch powered by Undici for HTTP. Other topics include watch mode for development, node:sqlite for embedded databases, and the stable Permission System for better security.\n\nThis is not only about making things easier, but it’s also about security. Each dependency you skip is one less risk. When you publish packages, OIDC-based publishing to npm ensures your releases are securely linked to their sources and can be verified.\n\nHere’s something important: Node.js isn’t owned by any company. It runs on open governance and volunteers. By the end of this session, you’ll know the 2025-2026 roadmap, understand the new built-in features, and see why community involvement matters for security and the future. Your package.json will shrink, and Node.js is more worth your attention than ever.",
+      "date": "2026-04-17T10:25+00:00",
+      "tags": [
+        "NodeJS",
+        "BackendDev",
+        "OpenSource"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/63rtwjMDRb3hRdXbWwFH9/2265992eed78f602d9711733103e71cc/matteocollina.jpg",
+      "twitter": "matteocollina",
+      "bluesky": "nodeland.dev",
+      "linkedin": "matteocollina/"
+    },
+    {
+      "name": "Douglas Crockford",
+      "bio": "Douglas Crockford is the author of How JavaScript Works. He has been called a JavaScript Guru, but he is more of a Mahatma. He was born in Frostbite Falls, Minnesota, but left when he was only six months old because it was just too damn cold. He has worked in broadcasting, learning systems, small business systems, office automation, games, interactive music, multimedia, location-based entertainment, social systems, and programming languages. He is the inventor of Tilton, the ugliest programming language that was not specifically designed to be an ugly programming language. He is best known for having discovered that there are good parts in JavaScript. That was the first important discovery of the Twenty First Century. He also discovered the JSON Data Interchange Format, the world’s most loved data format.",
+      "company": "JSON Creator",
+      "talkTitle": "JavaScript: The Best Part",
+      "description": "JavaScript's best part is higher-order functions. You will discover why this is the best way to program.",
+      "date": "2026-04-17T16:45+00:00",
+      "tags": [
+        "javascript bestpart"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5cdJ4PfTLHGNCUs654t0V8/41f8d205b046b742a649c601f75a9c39/12700112824_d1a5612b9d_c.webp",
+      "bluesky": "https://bsky.app/profile/did:plc:45gs3u53n6my3eyjdhmuogbk",
+      "linkedin": "https://www.linkedin.com/in/douglas-crockford-724600109/"
+    },
+    {
+      "name": "Anna Henningsen",
+      "bio": "Once one of the most active Node.js core contributors, Anna is still driven by a passion for JavaScript and its community. These days, she works on Developer Tools and Client Libraries at MongoDB.",
+      "company": "Staff Engineer @ MongoDB",
+      "talkTitle": "Segmentation fault! Low-level debugging for JS developers",
+      "description": "JavaScript developers may not often face segmentation faults, but low-level debugging skills can be invaluable for diagnosing crashes and other issues in server-side JavaScript applications. This talk provides an overview of how native debuggers and tracing tools can help investigate issues that would otherwise be out of reach for JS developers, such as crashes or memory leaks that straddle the boundary between high-level JS code and native C or C++ APIs.",
+      "tags": [
+        "Javascript",
+        "Debugging",
+        "NativeModules",
+        "MemoryLeaks"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/1FPLc2Y8tsI1lsvfJ1Bwq5/68e1055c65e435b78f820d958550014d/addaleax-profile_-_Anna_Henningsen.webp",
+      "twitter": "addaleax",
+      "bluesky": "addaleax.bsky.social"
+    },
+    {
+      "name": "Rich Harris",
+      "bio": "Open source troublemaker at Vercel. Creator of Rollup and Svelte",
+      "company": "Vercel",
+      "talkTitle": "The Other Local-First",
+      "description": "The field of software engineering has changed dramatically in the last six months, whether you consented to it or not. But the new way of working has dangers that we're not taking seriously. In this talk, we'll explore how we can reframe our collective relationship with AI using the ideals of local-first development.",
+      "date": "2026-04-17T12:25+01:00",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/3MCvrYHIrvDXFasa7yLTPV/80b8678c0f5055dc0677ae495860d168/WhatsApp_Image_2024-10-28_at_18.08.45.webp",
+      "twitter": "@Rich_Harris"
+    },
+    {
+      "name": "Sara Vieira",
+      "bio": "Sara is a developer at Remote. Author of The Opinionated Guide to React. GraphQL and Open Source enthusiast. Conference Speaker and Airport expert. She's also a fan of horror movies, has talents such as banging sticks into a drum kit and saying the wrong thing at the wrong time.",
+      "company": "Senior Frontend Developer",
+      "talkTitle": "Main stage MC",
+      "description": "Our MC for the main stage",
+      "date": "2025-04-25T09:30+00:00",
+      "location": "Royal Geographical Society, 1 Kensington Gore, South Kensington, London SW7 2AR",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/NmafeW3YsQmLqcWa97h1r/43db8212a93ac74fff2daa071e71ab4f/saravieira.webp",
+      "twitter": "@Nikkitaftw",
+      "bluesky": "nikkitaftw.wtf",
+      "linkedin": "saravieira1"
+    },
+    {
+      "name": "Kitze",
+      "bio": "Kitze loves to rant about webdev. He is the founder of Sizzy - the browser for developers. He created React Academy to teach webdevelopment. He's the creator of Zero To Shipped - the interactive video course for mastering Fullstack Development. He's documenting his journey on YouTube, streams on Twitch, and has a blog that he maintains once in a blue moon. He made Benji (https://benji.so), Twizzle (https://twizzle.app), ok-google.io (https://ok-google.io), JSUI (https://github.com/kitze/jsui), Glink (https://glink.so), showGPT (https://showgpt.co) etc.",
+      "company": "Sizzy",
+      "talkTitle": "From Vibe Coding to Vibe Engineering",
+      "description": "Web development has always moved in cycles of hype, from frameworks to tooling. With the rise of large language models, we're entering a new era of 'vibe coding,' where developers shape software through collaboration with AI rather than syntax. This talk explores what that means for the future of coding, especially in frontend development, and how it echoes the past while redefining what comes next.",
+      "date": "2026-04-17T10:00+00:00",
+      "tags": [
+        "AI-Assisted Development",
+        "VibeCoding",
+        "Future of Frontend"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/329CMmdgWnxwx2rM6UV8BD/7ad53e9ba645f115a5534e296b15e99f/kitze.jpg",
+      "twitter": "thekitze",
+      "bluesky": "thekitze.bsky.social"
+    },
+    {
+      "name": "Ali Spivak",
+      "bio": "Ali Spivak is a lead on the Chrome Developer Relations team at Google, where she manages a global team covering Web & Chrome AI, Chrome Extensions, Chrome Developer Tools, and Chrome on Android. With prior experience at Mozilla, Okta, Cisco, and several startups, Ali has a background in web development and leading developer relations teams.",
+      "company": "Google",
+      "talkTitle": "How to choose the right AI model for your project",
+      "description": "This presentation will detail a methodology to help you select the right Generative AI (GenAI) model by defining project needs and constraints first, assessing the available data, and finally, selecting the appropriate model type and processing location. Once you have narrowed down the model type, we'll cover how to actually evaluate the mode fit for your project needs.",
+      "date": "2026-02-17T14:00+00:00",
+      "tags": [
+        "AI",
+        "GenerativeAI",
+        "MachineLearning",
+        "GoogleDeepMind"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5GlQuCq39CImmxkZlYqPbF/5f6a01dace946daf774481b2933dc384/Ali_Spivak_400x400_-_Ali_Spivak.jpeg",
+      "twitter": "alispivak",
+      "bluesky": "alispivak.bsky.social",
+      "linkedin": "https://www.linkedin.com/in/alispivak"
+    },
+    {
+      "name": "Luca Mezzalira",
+      "bio": "Luca Mezzalira has been associated with the industry since 2004 and has lent his expertise predominantly in the solution architecture field. He earned accolades for revolutionizing the scalability of frontend architectures with micro-frontends, from increasing the efficiency of workflows to delivering quality in products. Luca is known as an excellent communicator who believes in using an interactive approach for understanding and solving problems of varied scopes.",
+      "company": "Software Architect @AWS",
+      "talkTitle": "The Dark Side of Micro-Frontends",
+      "description": "Micro-Frontends are the distributed architecture for the user interfaces that are solving not only technical but also organizational challenges. In this session, you will learn the most common anti-patterns I've seen in the past 10 years of implementing and consulting worldwide companies in their journey into the micro-frontends architecture. Whether you are an expert or a newbie, in this talk, you will learn how to properly structure your micro-frontends architecture and how to avoid common mistakes while building micro-frontends.",
+      "date": "2026-04-17T15:30+00:00",
+      "tags": [
+        "MicroFrontends",
+        "FrontendArchitecture",
+        "WebDev"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/3wcsgNjjUgdOlyLUzUHqD6/e1f3e1064e6264f51a3baf6f6915c306/lucamezzalira.jpg",
+      "twitter": "lucamezzalira",
+      "linkedin": "https://www.linkedin.com/in/lucamezzalira/"
+    },
+    {
+      "name": "David Whitney",
+      "bio": "David is the Director of Architecture for NewDay, and the founder of Electric Head Software. Focusing on iterative software delivery, developer mentoring and cultural change - mostly working with London-based organisations.\n\nHe speaks about software design, culture, and ethics in technology - rounded out by an assortment of talks about software that probably doesn't need to exist but makes the world a little more fun. David has previously served as the chief coding technical architect for JustGiving and helped market-leading organisations including JUST-EAT, Trainline and Vodafone improve their technical capabilities.\n\nDavid is a Microsoft MVP, has been part of the OpenUK Honours list for open-source advocacy, and is a twice bestselling author of children's books about programming.",
+      "company": "Director of Architecture at NewDay",
+      "talkTitle": "The Future of the AI Bubble (Panel)",
+      "description": "In this panel we'll discuss the current state of generative AI, how systems built on top of it work, and what happens if the exceptionally resource intensive infrastructure underneath it fails.\n\nWe'll cover the possible ramifications for our industry, the ethical dilemas and project out into the future around this controversial and category defining emerging programming technique.",
+      "date": "2026-04-17T16:00+00:00",
+      "tags": [
+        "AI Age",
+        "Panel",
+        "Future of Development"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/NPzqwzHxdBPKeLSAhCvJb/80ea3510a6c71b114a6c1b361a26bbe7/163e-400o400o2-QftsPY37vCRJU3gt7PbT2K_-_David_Whitney.webp",
+      "twitter": "david_whitney",
+      "bluesky": "https://bsky.app/profile/davidwhitney.co.uk",
+      "linkedin": "https://www.linkedin.com/in/davidwhitney/",
+      "panel": true
+    },
+    {
+      "name": "David Benson",
+      "bio": "Tech Lead & Senior Front-End Developer  with broad experience across design, backend systems, databases, and SysAdmin/DevOps. Currently focused on functional React and Redux architectures, with a strong emphasis on TDD and comprehensive E2E test coverage.\n\nRecently completed a 15-month contract as  Tech Lead at NewDay Cards , leading delivery on complex front-end systems (case study available on request).\n\nActively seeking hands-on roles that combine high-quality engineering with opportunities for team leadership and mentoring. Particularly interested in greenfield React/Redux projects based in Central London or remote roles across the UK or EU.\n\nAlways keen to expand the skill set, with growing interests in  Vue, Svelte, GraphQL , and backend  Node.js  development.",
+      "company": "Development Consultant Disaster and Design",
+      "talkTitle": "The Future of the AI Bubble (Panel)",
+      "description": "In this panel we'll discuss the current state of generative AI, how systems built on top of it work, and what happens if the exceptionally resource intensive infrastructure underneath it fails.\n\nWe'll cover the possible ramifications for our industry, the ethical dilemas and project out into the future around this controversial and category defining emerging programming technique.",
+      "tags": [
+        "I despise hashtags almost as much as I despise AI..."
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/4TAG94MLXFtXeG5CSmjalT/7c29db3bf4ef0de10f83ab8672839660/david-benson_Î_Î_Ï_Î_Ì_Î_Ï_Î_Ï_Î_.webp",
+      "bluesky": "@davedisasterman.bsky.social",
+      "linkedin": "https://www.linkedin.com/in/dmbenson1978/"
+    },
+    {
+      "name": "Ruben Casas",
+      "bio": "Ruben Casas is a Staff Vibe Engineer at Postman. Always exploring what's next: Currently playing with MCP and MCP Apps, AI-native developer tools, self-generating UIs, and the future of human + machine collaboration.",
+      "company": "Staff Engineer @ Postman",
+      "talkTitle": "React Beyond Components: The Rise of Generative UI",
+      "description": "The component model made popular by React was the key to its success. By giving developers precise control over how interfaces are created, composed, and reused, React enabled an entire generation of high-quality user interfaces and thoughtful user experiences.\n\nToday, we’re at a similar inflection point…\n\nThe rise of large language models has introduced a new way of interacting with machines. What began as text-based interfaces has steadily evolved into richer experiences, with UI components now being rendered and orchestrated by LLMs themselves.\nYet most of these systems remain constrained by a familiar paradigm: invoking pre-made, static components. But let’s be honest, most LLMs are better at writing frontend code than me! This creates a great opportunity to rethink UI with React: moving beyond fixed component trees toward true generative UI\n\nIn this talk, through concrete examples and live demos, we’ll explore how React fits into the emerging spectrum of generative UI, including:\n* Static React UI templates exposed through tools\n* Declarative, configuration-driven interfaces orchestrated by agents\n* Fully generative React interfaces authored on the fly by LLMs",
+      "date": "2026-04-17T10:25+00:00",
+      "tags": [
+        "React",
+        "GenerativeUI",
+        "LLMs"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/4BctvUicx7WJdFpdgj5B31/ac9b84dbf1e9f2a1dd99fa0bb2647784/ruben.jpeg",
+      "twitter": "infoxicador",
+      "linkedin": "https://www.linkedin.com/in/ruben-casas-17100383/"
+    },
+    {
+      "name": "Alvin Bryan",
+      "bio": "Alvin is a developer advocate at Yoto working in IoT audio. Before that he did developer relations for Unleash and Contentful, focusing on feature flags and headless CMS.\n\nPreviously, he was a lead engineer for Dow Jones at the Wall Street Journal and had various front-end roles over 8 years working on graphics, maps, games, and 3D. He’s happiest working on visual challenges with designers.",
+      "company": "Developer Advocate at Yoto",
+      "talkTitle": "A personal AI agent, off cloud, for $100",
+      "description": "Most of the talk around AI is about revolution, this is about taking an LLM off the big tech platform for simple daily improvements.\n\nI built a fully private digital butler that actually is personal. It exists on my computer, and stores only what I tell it to. It shares no data with the world, and helps me stay organised with useful, focused interactions. \n  \nI’ll show you how I made it, so you can build your own too.\n\nMore importantly, I’ll help you think through a process of taking the scary acronyms of AI and LLMs into something **small, friendly, and genuinely helpful**. Something that stays **private and under your control**, and lets you own your data.\n\nLooking forward to sharing what I built, and hopefully inspiring you to do the same.",
+      "date": "2026-04-17T11:45+00:00",
+      "tags": [
+        "AI",
+        "PrivacyTech",
+        "WebGPU",
+        "Webdev"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/1x3wLb6kJS7vqki4WVSYC1/ac82b8f8f4d95b6b3707c52ed8809c54/alvin_-_Alvin_Bryan.jpeg",
+      "twitter": "hola_alvin"
+    },
+    {
+      "name": "Alexander Cheprasov",
+      "bio": "Alexander Cheprasov is a Principal Software Engineer based in London, specializing in high-load systems, trading platforms and distributed JavaScript applications. He is the creator of JSBT — a binary serialization format designed specifically for JavaScript object graphs. Alexander has extensive experience in TypeScript, Node.js, Go, scalable architectures and performance engineering. He is passionate about developer tools, data processing and building robust, elegant systems.",
+      "company": "Senior Software Engineer, Valstro (UK) Ltd",
+      "talkTitle": "JSBT: A Binary Serialization Format for Real JavaScript Object Graphs",
+      "description": "Most serialization formats used in JavaScript were never designed for JavaScript. JSON can’t handle circular references or shared objects; Protobuf and Avro require schemas; MessagePack and CBOR still see data as a tree.\n\nIn this talk, I will introduce JSBT – JavaScript Binary Transfer, a binary format designed specifically for JavaScript object graphs. It supports circular references, Maps, Sets, BigInts, TypedArrays, class instances and achieves huge size reductions (10,000 objects → 62 KB).\nA deep dive into how it works, why it exists, and how it can change the way JS services exchange data.",
+      "date": "2026-04-17T15:45+00:00",
+      "tags": [
+        "JavaScript",
+        "Performance",
+        "DataSerialization"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/3Zo9VTvxqgozhhnHga5x4l/1169ae04f8c159d8cbba6f63407f34db/4299922.webp",
+      "linkedin": "https://www.linkedin.com/in/alexandercheprasov/"
+    },
+    {
+      "name": "Aprajita Verma",
+      "bio": "I am a Frontend Architect and technical evangelist with over 16.5 years of experience in building modern, user-focused applications. While I have deep expertise in React, I’m framework-agnostic, with a strong foundation in Angular, Ext JS, and GWT. I’m passionate about UI/UX modernization, accessibility, and mentoring teams, and my recent work explores GenAie-powered, cognitive interfaces that deliver intelligent, self-learning user experiences. Throughout my career, I’ve been recognized for continuous innovation and thought leadership in frontend development.",
+      "company": "Mycom, Frontend Architect",
+      "talkTitle": "WebAssembly + JavaScript: Partners, Not Competitors and Why now is the right time to pay attention",
+      "description": "WebAssembly has been around for years, but now is the moment it truly matters. \nIn this talk, we will explore how WebAssembly and JavaScript complement each other to unlock new levels of performance on the web.\n\nFrom heavy data crunching to realtime graphics and even running AI models directly in the browser. \nWe will discover why WebAssembly is not here to replace JavaScript but to supercharge it, and why now is the right time for developers to embrace this powerful partnership.",
+      "tags": [
+        "WebAssembly",
+        "High-Performance Web",
+        "Next-Gen Browser Applications"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5gm07wd8GwuvoMPJJhI4SK/0cfc4eb055b2d409c49c3277cb3b6607/AprajitaVerma.png",
+      "linkedin": "https://www.linkedin.com/in/aprajita-verma-19522814a"
+    },
+    {
+      "name": "Daniel Roe",
+      "bio": "Daniel leads the Nuxt core team - previously CTO of SaaS startup and founder of a creative agency focusing on clarity of vision and message. His open-source work has a focus in the Vue.js and Nuxt ecosystems and he's involved in consultancy with companies around the world, particularly around JAMstack, serverless and software architecture. He's based in Scotland where he lives with his family and cat.",
+      "company": "Framework Lead @ Nuxt",
+      "talkTitle": "Beyond the Framework",
+      "description": "Frontend tooling moves at breakneck speed, but the foundations of great web applications remain surprisingly constant. In this talk, Daniel explores how to architect projects that will thrive across technology shifts — from framework migrations to evolving hosting landscapes. Drawing from his work leading the Nuxt core team and collaborating with global developer communities, Daniel shares patterns, pitfalls, and practical strategies for building software that stays resilient, adaptable, and joyful to work on.",
+      "date": "2026-04-17T10:00+00:00",
+      "tags": [
+        "Web Architecture",
+        "Frontend Tooling",
+        "Sustainable Software"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/768h28hGagOqk9nRhVZroX/ca7aa178a80c75e0aa74d49cf7a9f68f/me.webp",
+      "twitter": "@danielcroe"
+    },
+    {
+      "name": "Eduardo Aparicio Cardenes",
+      "bio": "I am a passionate Software Engineer passionate about Frontend with over 15 years of experience in the ever-evolving landscape of web technologies, I've had the privilege of witnessing and contributing to the transformation of the digital world.\n \nWhether streamlining codebases, introducing micro-frontend (Mosaic 8), PWAs, or implementing cutting-edge technologies, my experience enables me to lead in crafting scalable and efficient architectures that meet and exceed the demands of modern web applications.",
+      "company": "Senior Software Engineer at Happening",
+      "talkTitle": "From Isolation to Acceleration: Building the fastest payment platform on an iFrame",
+      "description": "What started as a secure, isolated iFrame to ensure user confidence soon turned into a performance hurdle in key markets like Brazil, where load times hit double digits. In this talk, we’ll show you how we transformed that iFrame-based approach into a blazing-fast, data-driven payment platform.\n\nThis isn’t another framework story; it’s an engineering one. We had to make bold decisions to transform that single-page approach into a fast, reliable, and scalable payment ecosystem.\n\nWe'll dive into the technical journey and the data that drove our decisions, revealing how we achieved dramatic speed improvements without sacrificing reliability. Come see how we turned a slow lane into a fast track, all grounded in real-world performance data.\n\nUnder the hood, we used Vue.js to make it happen, but the real takeaway is how data guided the architecture. This session unpacks what we built, what didn’t work, and the hard-earned lessons about performance that go beyond any single framework.",
+      "date": "2026-04-17T11:25+00:00",
+      "tags": [
+        "Web Performance",
+        "Architecture",
+        "Vue.js",
+        "Data-Driven Engineering"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/7B29AFhN9d0TRhboSfSQsS/d999938c9fbc3d19f4230389c759b3f0/IMG_5612__2__-_Eduardo_Dev__1_.webp",
+      "twitter": "Byeduardoac",
+      "linkedin": "https://www.linkedin.com/in/eacardenes/"
+    },
+    {
+      "name": "Scott Spence",
+      "bio": "Meet Scott, a no-nonsense Svelte ambassador, team lead, and the go-to for real-world web dev advice. He organizes Svelte Society London, blogs what he learns, and creates videos that cut through the hype and get straight to what works. Scott’s all about community, making complex tech simple, and sharing both wins and learning moments. If it’s SvelteKit, TypeScript, or Tailwind, he’s probably using it (and telling you why pnpm is the only way!).",
+      "company": "XtendOps",
+      "talkTitle": "Pigeon-Driven Development",
+      "description": "I work with AI daily - building tools, refactoring codebases, shipping features. It's genuinely made me more productive. But somewhere along the way I learned that the real skill isn't prompting, it's evaluation.\nA 2023 University of Iowa study found that AI and pigeons use the same associative learning process - pattern matching, not reasoning. I'm not saying that to be dismissive. It's incredibly powerful. But it means you're working with a very fast pigeon, and you need to know when the patterns have gone wrong. And they will.\nThis talk covers:\n\nReal examples of my pigeon going off track and how I caught them (including the time it moved 160 files to completely the wrong place)\nThe verification habits I've built into my workflow\nWhy \"trust but verify\" isn't enough - you need to know what to verify\nBuilding guardrails so you can move fast without breaking things\n\nNo hand-wavy thought leadership. Just what I've learned from doing the work.",
+      "date": "2026-04-17T14:00+00:00",
+      "tags": [
+        "AIInPractice",
+        "SafeAndReliableAI",
+        "Svelte"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/YmuULmidE4W047vMCu5VH/8b175dc330465cc74401fcdc6e99d487/scott.webp",
+      "twitter": "@spences10",
+      "bluesky": "scottspence.dev",
+      "linkedin": "https://www.linkedin.com/in/spences10/"
+    },
+    {
+      "name": "Zbyszek Tenerowicz",
+      "bio": "Full-stack engineer and technology researcher. Leads Security Lab team at MetaMask working on LavaMoat and Endo. Started using Node.js at v0.8 and never stopped. Enjoys innovating and teaching security, diagnostics and maintainability. One of the oldest members of meet.js Poland community - both as a speaker and organizer. Hacking JavaScript since his teenage years.",
+      "company": "LavaMoat R&D team Lead at Consensys",
+      "talkTitle": "Effortlessly defend your dev machine from North Koreans on NPM",
+      "description": "With supply chain attacks increasingly targeting the developer's machine, we need to start looking into hardening that.\nLet's see how you can eliminate most risks form malicious NPM packages in your local dev environment with one setup of under 5 minutes.",
+      "date": "2026-04-17T14:45+00:00",
+      "tags": [
+        "Security",
+        "NPM",
+        "Packages",
+        "Supply-chain"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/4DAE1MEwwgc4sujEiRWAos/4d49500d5696e4799d9de7cfad223925/me.avatar.lg.webp",
+      "twitter": "naugtur",
+      "bluesky": "naugtur.pl",
+      "linkedin": "https://www.linkedin.com/in/zbigniew-tenerowicz-288175165/"
+    },
+    {
+      "name": "Nkechi Anyanwu",
+      "bio": "Nkechi is a full-stack product engineer and multidisciplinary technologist documenting the transition from traditional development to AI orchestration through hands-on experimentation and real-world projects.\n\nShe's currently building the future of KYC and Digital Identity as a senior product engineer at Vouchsafe while developing an AI workflow app in stealth mode. She's passionate about creating products that reshape how people interact with the world around them.",
+      "company": "Vouchsafe",
+      "talkTitle": "From Executor to Orchestrator: Building in the Age of AI Agents",
+      "description": "I built a production app now used by contractors in a fraction of the time it would have taken me a year ago. Not because I wrote less code, but because I learned to orchestrate.\n\nWe're in the middle of a fundamental shift: from writing every line of code to orchestrating AI agents that help us build. Paradoxically, this requires both stronger technical judgment and more product thinking - knowing what to build and why, not just how to implement it. Through a case study of building this product, I'll share three approaches to AI-assisted development, orchestration patterns for coordinating multiple AI agents and tools, and strategies for navigating challenges like the \"Hyperspecificity Paradox.\" You'll leave with a strategic framework for using AI across the full build cycle - ideation, discovery, architecture, implementation, deployment - and actionable patterns you can apply immediately.\n\nWhy This Matters for CityJS Attendees:\nWhen everyone has access to AI intelligence, what becomes the differentiator? I argue it's agency, curiosity, product thinking, and the builder's mindset. Orchestration elevates developers from implementation details to strategic decisions about what should be built. This talk equips JavaScript developers with both the philosophy and practical patterns to thrive in this new paradigm.",
+      "date": "2026-04-17T14:00+00:00",
+      "tags": [
+        "AI Orchestration",
+        "AI-Assisted Development",
+        "Builder Mindset"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/71PixIrFZhXQsWsX7Rv8U0/7f4d42d1674b414e7565fc098ece94f9/1754414823345.webp",
+      "twitter": "@kechieanyanwu",
+      "linkedin": "https://www.linkedin.com/in/nkechianyanwu/"
+    },
+    {
+      "name": "Carly Richmond",
+      "bio": "Carly is Developer Advocate Lead at Elastic, based in London, UK. Before joining Elastic in 2022, she spent over 10 years as a software engineer at a large investment bank, specialising in front-end web development and agility. She is a UI developer who occasionally dabbles in writing backend services, a speaker, and a regular blogger.\n\nShe enjoys cooking, photography, drinking tea, and chasing after her young son in her spare time.",
+      "company": "Senior Developer Advocate at Elastic",
+      "talkTitle": "OTel You It's Not Just for Backend!",
+      "description": "Observability is the ability to measure the current state of a system. SREs are familiar with OpenTelemetry signals and how they can be used to diagnose issues. Yet in the frontend world, we’re behind the curve.\n\nJoin me as I dive into the current state of OpenTelemetry for Web. I’ll cover a simple example of logging, metrics and tracing using OTel web, specifically the Client Instrumentation libraries, and the types of metrics and traces we should collect to diagnose performance issues and client usage in UIs.",
+      "date": "2026-04-17T12:05+01:00",
+      "tags": [
+        "Frontend Observability",
+        "OpenTelemetry",
+        "Web Performance Monitoring"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/6ohGvDbfTBPGjD3Kzt887A/d9106edfadf6617cf2c83644d3828ab5/headshot_-_Carly_Richmond.jpeg",
+      "twitter": "@CarlyLRichmond",
+      "bluesky": "carlyrichmond.bsky.social",
+      "linkedin": "https://www.linkedin.com/in/carly-richmond/"
+    },
+    {
+      "name": "Steven Goodwin",
+      "bio": "Steven Goodwin (London, England) has been involved in computing, science, and technology from an early age, building his first synthesizer while still in his teens. As a systems architect he designed and built global systems for Unilever, Playfish, and Third Space Learning using a wide range of languages and technologies. He is also highly experienced on the small scale, with work on the iPhone, Arduino, and Raspberry Pi, as well as running teams of between 1 and 30 people. His position as an industry thought leader in technology implementations includes being a mentor at ed-invent, a start-up consultant, and a futurist. He has given talks around the world on topics as diverse as home automation, HTML5, game development, and quantum superpositions. To date he has written 8 JavaScript emulators and, should there be another lockdown in 2021, he will probably write some more!",
+      "company": "Unemployable computer geek",
+      "talkTitle": "Code Golf - Getting A Hole-in-One-(Liner)",
+      "description": "We spend so long adopting well-worn patterns, and following accepted best practise, that we can forget about the fun that used to came from exploring the dark corners of our language. This talk covers some fundamentals of JavaScript and how they can be (ab)used to writer shorter and more compact code.",
+      "date": "2026-04-17T14:00+00:00",
+      "tags": [
+        "JavaScript Internals",
+        "Code Golfing",
+        "Language Quirks"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5PNCTq39uxRqhgfn0prge8/ffada7b46c28a21f2bbbad59e5dc682f/marquisthegeek.png",
+      "twitter": "marquisdegeek",
+      "linkedin": "https://www.linkedin.com/in/marquisdegeek/"
+    },
+    {
+      "name": "Ananya Kittane Yogananda",
+      "bio": "I am a Senior Engineer – Web Standards Technologist at Samsung R&D Institute UK (Samsung Electronics) where I work closely with several W3C working groups – including Web Applications, Devices and Sensors, Accessible Platform Architecture, and Web DX – to help shape the capabilities of the modern web. My work sits at the intersection of standards development, and developer advocacy.\n\nBefore stepping into the standards world, I was a front-end engineer building high-performant, user-centric web applications with React and Angular for major clients.  Having lived on both sides of the table – as a developer who consumes the platform and now as someone who helps define it – I bring unique perspective on how the web evolves and why certain decisions are made. I write code, and now a whole bunch of standards too. Outside of work, you will find me travelling or jamming to some cool music.",
+      "company": "Senior Engineer - Web standards technologist, Samsung R&D Institute UK",
+      "talkTitle": "Off-the-main-thread : Building fast, smooth and future-proof web apps.",
+      "description": "Modern JavaScript apps demand more from the browser than ever. As rendering, scripting, layout, and user input all fight for time on the main thread, even well-built apps can suffer from slow interactions, jank and dropped frames. In this talk, we'll explore how to build fast, smooth web experiences by strategically moving work off the main thread.",
+      "date": "2026-04-17T15:20+00:00",
+      "tags": [
+        "Main Thread",
+        "Web Performance",
+        "JavaScript Optimization"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/36iFthFWNoP6NtfVxIjrES/a0bfb2e57e62f90cb8c306bb3bb6a544/Ananya-cityjs.webp",
+      "linkedin": "https://www.linkedin.com/in/ananya-ky/"
+    },
+    {
+      "name": "Trust Jamin Okpukoro",
+      "bio": "Trust Jamin Okpukoro is a developer advocate and senior technical writer with a strong background in software engineering. Over the past few years, he has consistently enhanced developer experiences across various developer products by creating impactful technical content and leading strategic initiatives. His work has helped increase product awareness, drive user engagement, boost sales, and position companies as thought leaders within their industries.",
+      "company": "Uploadcare, Developer Advocate",
+      "talkTitle": "Replacing form libraries with native web APIs",
+      "description": "In 2026, shipping a heavy library like Formik or React Hook Form is often an unnecessary performance tax. This \"delete code\" session showcases how to use the Constraint Validation API, the Popover API, and native HTML Form Validation to build complex, accessible, and high-performance forms with zero external dependencies. We will compare the bundle size and TBT (Total Blocking Time) of a \"library-less\" form versus a traditional one, proving that \"doing less\" is the ultimate developer experience.",
+      "date": "2026-04-17T12:25+00:00",
+      "tags": [
+        "Native Web APIs",
+        "HTML Forms",
+        "Web Performance"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/2Y2saDjlSSjESAa632gfp1/170fe4fcb34d1174201c1e3d915cc2f1/jamin_-_Trust_Jamin.webp",
+      "twitter": "codejagaban",
+      "linkedin": "https://www.linkedin.com/in/codejagaban"
+    },
+    {
+      "name": "Nico Martin",
+      "bio": "In this talk, we’ll explore how to build multimodal AI agents that understand voice, interpret images, hold short-term memory, and respond intelligently - all running entirely in the browser. No server, no cloud APIs, and no installation. Using modern tools like WebGPU and WebAssembly, we’ll see how far the open web has come in enabling real-time, privacy-preserving AI experiences.",
+      "company": "Hugging Face - Machine Learning Engineer",
+      "talkTitle": "Look ma, no hands! Multimodal AI-Agents in the browser",
+      "description": "In this talk, we’ll explore how to build multimodal AI agents that understand voice, interpret images, hold short-term memory, and respond intelligently - all running entirely in the browser. No server, no cloud APIs, and no installation. Using modern tools like WebGPU and WebAssembly, we’ll see how far the open web has come in enabling real-time, privacy-preserving AI experiences.",
+      "date": "2026-04-17T12:45+00:00",
+      "tags": [
+        "Multimodal AI",
+        "Browser-Based AI",
+        "Privacy-Preserving Technology"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/6VT97CoDaqyPyEMcPwPHoJ/e5f97f68b1a99c9a089e292009485006/nico-martin-portrait.jpg",
+      "twitter": "nic_o_martin",
+      "bluesky": "https://bsky.app/profile/nico.dev",
+      "linkedin": "https://www.linkedin.com/in/nicodotdev/"
+    },
+    {
+      "name": "Paul Ibeabuchi",
+      "bio": "Paul is a software engineer passionate about building reliable, user-focused applications. With over five years of experience in software development, Paul now exploring how AI and security tools can transform the way we write and protect code. While working as a Technical Support Engineer at Supabase, he is currently pursuing an MSc degree in Artificial Intelligence at the University of Salford, Manchester where he learns to apply AI to practical, real-world engineering challenges.",
+      "company": "Supabase",
+      "talkTitle": "Securing AI-Generated Code with Semgrep",
+      "description": "$36",
+      "date": "2026-04-17T11:25+00:00",
+      "tags": [
+        "AI-assisted development",
+        "Application security",
+        "Secure software development"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/19P1o0unFIcHDPlw9AUAeG/53d2634b839869c23ca6d4817b492078/My_Profile_Photo_-_Paul_Ibeabuchi.webp",
+      "twitter": "narudesigns",
+      "linkedin": "https://linkedin.com/in/narudeisgns"
+    },
+    {
+      "name": "Erik Rasmussen",
+      "bio": "American expat living in Spain, author of Redux Form, Final Form, and currently building the best CRM in the world at Attio.",
+      "company": "Fuse Energy",
+      "talkTitle": "Ripple: the Good Parts of React, Svelte, and Solid",
+      "description": "Throughout history, empires rise and fall. Throughtout web development, frameworks rise and fall. In 2026, we are firmly in \"late stage React\", where young devs can't remember the world any other way, and older devs are keeping their eye on the horizon for what's next.\n\nWhat if I told you there was a TypeScript-first UI framework created by a member of both the React _and_ Svelte core teams focused on fine-grained reactivity and rendering speed that will look instantly familiar to you?\n\nI'd like to introduce you to Ripple, show you around its syntax and philosophy and stimulate your mind out of the Present and into the Future.",
+      "date": "2026-04-17T15:10+00:00",
+      "tags": [
+        "webdev",
+        "reactalternatives",
+        "#frameworks"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/7fn6u1EjvUIUrKOGg6epqw/56945e69cf00a57740d886b7d070bdf3/400_-_Erik_Rasmussen.jpg",
+      "twitter": "@erikras",
+      "bluesky": "https://bsky.app/profile/erikras.com",
+      "linkedin": "https://www.linkedin.com/in/erikjrasmussen/"
+    },
+    {
+      "name": "Chris Noring",
+      "bio": "Chris is a Senior Engineer at Microsoft , with 20 years in the IT industry, focused on AI and JavaScript. He also lectures at University of Oxford on AI and Agents.",
+      "company": "Microsoft",
+      "talkTitle": "Improve your e-commerce with Agents and Model Context Protocol.",
+      "description": "This talk will take you through how AI can improve your e-commerce website to increase conversion and customer joy. The talk will cover Agents and how MCP helps build reusable agents",
+      "date": "2026-04-17T15:25+00:00",
+      "tags": [
+        "AI in E-commerce",
+        "AI Agents & MCP",
+        "Conversion Optimization"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/3yqPkqoI3fCYggM71OgSxL/b722dc0aeb06a6220030639449cc11cf/chrisnoring__1_.webp",
+      "twitter": "chris_noring"
+    },
+    {
+      "name": "Alexander Günsche",
+      "bio": "Alex is a Senior Solutions Architect at AWS with 20 years of IT experience in expert and leadership roles. He is a strong advocate of agile and DevOps practices, and he enjoys seeing serverless, cloud-native and event-driven architectures deployed at scale. He has delivered large transformation projects and successfully developed own and customers’ businesses. As an international speaker, he has held advanced technology sessions at a wide range of events.",
+      "company": "Senior Solutions Architect at AWS",
+      "talkTitle": "Embeddable Agentic SaaS with A2UI and Microfrontends",
+      "description": "Today’s interfaces often expose agents as simple chats or side panels, while real products are organized around clear domains and responsibilities. This session explores how to use A2UI to deliver complete agentic experiences as microfrontends, each aligned to a specific product context and owned by a dedicated team. Instead of sprinkling agent calls across many components, an agentic microfrontend becomes the primary interface for a given task space, with server-side agents describing UI updates via A2UI and the microfrontend rendering them using its own trusted design system.",
+      "date": "2026-04-17T12:25+00:00",
+      "tags": [
+        "A2UI",
+        "Agentic AI",
+        "Microfrontends",
+        "Generative AI"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/6YzIpNVvxRpyc29ITJejCk/711cbee1b3055fc66190b7ce10d3d34c/1761243484159.jpeg",
+      "linkedin": "https://www.linkedin.com/in/alexander-guensche/",
+      "panel": true
+    },
+    {
+      "name": "Praveen Kumar Purushothaman",
+      "bio": "$37",
+      "company": "Full Stack / JavaScript",
+      "talkTitle": "MC",
+      "description": "Our MC for the lower rooms",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/3FD4aNzCrTaGoPlHOlYvRA/954990a07a224cc558fbdaa832bd67db/praveenl_-_Praveen_Kumar_Purushothaman.webp",
+      "twitter": "praveenscience",
+      "linkedin": "https://www.linkedin.com/in/praveentech/"
+    },
+    {
+      "name": "Denise Lashlley",
+      "bio": "Technical Lead and frontend engineering specialist with a strong track record of delivering scalable, high-quality digital solutions. Currently leading frontend development at VIOOH, Denise combines deep technical expertise with mentoring, agile collaboration, and a passion for building efficient, user-focused products. Director at HTMLASH LTD and Computer Science graduate from Manchester Metropolitan University.",
+      "company": "VIOOH",
+      "talkTitle": "Women in Tech the Panel",
+      "description": "Join us for an inspiring Women in Tech Panel spotlighting trailblazing leaders who are shaping the future of innovation. From engineering and product to entrepreneurship and AI, our speakers will share candid stories about their career journeys, lessons learned, and the challenges they’ve overcome in the tech industry. Whether you're just starting out or looking to level up your career, this conversation will offer practical insights, empowering advice, and meaningful connections to help you thrive in tech.",
+      "date": "2026-04-17T14:20+00:00",
+      "tags": [
+        "WomenInTech"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/6UEqvUXG3gmbomf6r2HBwF/563640f6afd9c2a422a63ce89bb4ba06/IMG_0850_-_Denise_Lashlley__1_.webp",
+      "linkedin": "https://www.linkedin.com/in/deniselashlley/",
+      "panel": true
+    },
+    {
+      "name": "Jess Madhavan",
+      "bio": "Founder, independent consultant and Engineering leader building and guiding small, fast-moving teams across 0–1 products and experimental platforms. I operate where strategy meets delivery and a healthy amount of organised chaos taking ambitious ideas and turning them into products that actually ship.Experienced in scaling teams, running cross-functional squads and embedding AI-first ways of working in high-pace environments. I care deeply about pace, clarity and ownership, and about creating spaces where people feel confident enough to make real decisions and build properly.Builder mindset extends beyond the day job. Applied AI, algorithmic trading and new venture ideas. Strong advocate for Women in Tech, modern leadership and building things that create leverage, not just optics.Often working closest to the problems that matter most: direction, momentum and execution. Helping teams and founders turn intent into movement.https://imperatrix.ai",
+      "company": "Imperatrix intelligence",
+      "talkTitle": "Women in Tech the Panel",
+      "description": "Join us for an inspiring Women in Tech Panel spotlighting trailblazing leaders who are shaping the future of innovation. From engineering and product to entrepreneurship and AI, our speakers will share candid stories about their career journeys, lessons learned, and the challenges they’ve overcome in the tech industry. Whether you're just starting out or looking to level up your career, this conversation will offer practical insights, empowering advice, and meaningful connections to help you thrive in tech.",
+      "date": "2026-04-17T14:20+00:00",
+      "tags": [
+        "WomenInTech"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5tXbRxl5YTAT3ak8N00Dtj/5bfd81b898855a80ffb56040abecb14f/1770897163522.jpeg",
+      "linkedin": "https://uk.linkedin.com/in/jessmadhavan",
+      "panel": true
+    },
+    {
+      "name": "Benjamin Bartosch",
+      "bio": "Benjamin is a Staff Software Engineer at FUNKE Mediengruppe, one of Europe’s largest publishers. With more than 15 years of experience, he has led full-stack engineering teams and driven architectural transformation in complex environments. He is passionate about engineering culture and builds communities centered on knowledge sharing, continuous growth and collective ownership. As an international speaker, he explores architectures, engineering leadership and the evolving relationship between humans and intelligent systems in both digital products and developer productivity.",
+      "company": "Staff Software Engineer at Funke Mediengruppe | Digital Products",
+      "talkTitle": "Embeddable Agentic SaaS with A2UI and Microfrontends",
+      "description": "Today’s interfaces often expose agents as simple chats or side panels, while real products are organized around clear domains and responsibilities. This session explores how to use A2UI to deliver complete agentic experiences as microfrontends, each aligned to a specific product context and owned by a dedicated team. Instead of sprinkling agent calls across many components, an agentic microfrontend becomes the primary interface for a given task space, with server-side agents describing UI updates via A2UI and the microfrontend rendering them using its own trusted design system.",
+      "date": "2026-04-17T12:05+00:00",
+      "tags": [
+        "A2UI",
+        "Agentic AI",
+        "Microfrontends",
+        "Generative AI"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/2HLG6hESNXM5XSf2BExGTP/48fae7e8a972ceaa39a35b2535e3678c/benjamin-bartosch-03_-_Benjamin_Bartosch.webp",
+      "linkedin": "https://www.linkedin.com/in/benjamin-bartosch/",
+      "panel": true
+    },
+    {
+      "name": "Hadar Geva",
+      "bio": "Hadar Geva is the Co-Founder and CTO of Myop, a developer-first platform that lets teams safely ship AI-generated UI components directly into production apps. With over 15 years of hands-on frontend experience, Hadar previously served as Head of the Frontend Guild at Wix.com, where he oversaw 700+ developers and helped shape the company’s core frontend systems. Before that, he led cross-continental engineering teams at Jive Software. A frequent international speaker at React Summit, React Advanced London, JSNation, and DevConf.US, Hadar focuses on micro-frontends, runtime UI composition, and what happens when AI-generated code meets real production systems.",
+      "company": "CTO at myopdev",
+      "talkTitle": "What React Looks Like When Code Writes Itself",
+      "description": "AI tools can now generate full React components in seconds. But what happens after the prompt? The generated code still needs to be integrated, reviewed, sandboxed, and shipped - and that’s where things break down. In this talk, I’ll explore how React development is fundamentally changing when the code writes itself: what patterns survive, what new architectural boundaries emerge, and how teams can move from “AI can build it” to “AI can ship it” without sacrificing quality, security, or developer sanity. Expect real-world examples, live demos, and a honest look at where we’re headed.",
+      "date": "2026-04-17T14:55+00:00",
+      "tags": [
+        "#ReactWritesItself"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/UgPyGaUY7n6eFa5xRkEbZ/a10f050f1b2a1001116e83d07c9f0fea/IMG_8280_-_Hadar_Geva.webp",
+      "twitter": "myopdev",
+      "linkedin": "https://www.linkedin.com/in/hadarg"
+    },
+    {
+      "name": "Mo Khazali",
+      "bio": "Mo is an Associate Partner at Theodo, specialising in AI tooling. With a background spanning dozens of projects across the JS and React Native ecosystem, he now focuses on blending front-end expertise with AI tooling to help teams build apps more effectively. He has spoken at over 25 international conferences, organises the React Native London Conference, and is a React Native Core Contributor.",
+      "company": "Associate Partner, AI Tooling  @  Theodo",
+      "talkTitle": "Six-Month Refactor in Six Days: Using AI to Update Deprecated JS Libraries",
+      "description": "$38",
+      "date": "2026-04-17T15:20+00:00",
+      "tags": [
+        "AI-driven refactoring",
+        "JavaScript tech debt",
+        "styled-components migration"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/2lB5Zf3U1fArLlfzbRSAE6/2aa6b6a1a5ba8e5583fa8ee10392d888/unnamed.webp",
+      "twitter": "mo__javad"
+    },
+    {
+      "name": "Viktorija Buklajeva",
+      "bio": "Software engineer ,event organiser and host, podcast host at retro_side_quest",
+      "company": "Software Engineer at Zoopla",
+      "talkTitle": "Women in Tech the Panel",
+      "description": "Join us for an inspiring Women in Tech Panel spotlighting trailblazing leaders who are shaping the future of innovation. From engineering and product to entrepreneurship and AI, our speakers will share candid stories about their career journeys, lessons learned, and the challenges they’ve overcome in the tech industry. Whether you're just starting out or looking to level up your career, this conversation will offer practical insights, empowering advice, and meaningful connections to help you thrive in tech.",
+      "date": "2026-04-17T14:20+00:00",
+      "tags": [
+        "WomenInTech"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/1sLaSxygj57Bz7DfUKuDEe/88f2843878d5b88b3d59a1858f6d586d/viktorija.jpg",
+      "linkedin": "https://uk.linkedin.com/in/viktorija-buklajeva-14868713b",
+      "panel": true
+    },
+    {
+      "name": "Harshit Budhraja",
+      "bio": "Harshit designs, builds, scales, and optimizes high-performance media delivery solutions at ImageKit, bringing a solid foundation in API Design and System Architecture. Specializing in TypeScript, React, Node.js, and Next.js, he is always ready to get hands-on with whatever is needed to drive projects forward.",
+      "company": "ImageKit",
+      "talkTitle": "Video Optimization for the Web: The Missing Piece in Lighthouse",
+      "description": "Video is everywhere on the web, from hero banners to product videos to full-blown streaming. However, while Lighthouse reports issues related to images, scripts, and more, it doesn't really address video performance. That means streaming can suffer for end users, resulting in buffering and slow starts, while businesses incur huge data transfer costs due to unoptimized delivery.\n\nIn this talk, we'll explore some quick wins every developer should know: optimising video size and format, optimizing streaming for every device and network, and different video loading strategies to improve performance. You'll leave with a toolkit to make your videos load faster, play smoother, and feel as polished as the rest of your app, closing a significant gap that performance audits often overlook.",
+      "date": "2026-04-17T12:45+00:00",
+      "tags": [
+        "videooptimisation",
+        "webperformance",
+        "imagekit"
+      ],
+      "mapsUrl": "https://maps.app.goo.gl/mMJSxqmwc3xvdFfL9",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/2oiyjdNCyQB2R44ZAjMG9j/1a8faee0c92cc5f7d147e493c4e78981/harshit.webp",
+      "twitter": "https://x.com/harshitbudhraja",
+      "linkedin": "https://www.linkedin.com/in/harshitbudhraja/"
+    },
+    {
+      "name": "Paolo Insogna",
+      "bio": "Node.js TSC Member, Principal Engineer at Platformatic, Polyglot Developer. RPG and LARP addicted and nerd on lot more. Surrounded by lovely chubby cats.",
+      "company": "Platformatic",
+      "talkTitle": "Achieving 93% Faster Next.js in (your) Kubernetes with Watt",
+      "description": "Here's something most Node.js developers don't realize: PM2's cluster module silently imposes a ~30% performance tax through hidden IPC coordination overhead. Every request pays this cost for master-worker communication, and most teams accept it as the price of scaling Node.js applications.\n\nWith Watt, we eliminated this overhead using SO_REUSEPORT, achieving 93% faster median latency by letting the Linux kernel handle load distribution directly—no master processes, no IPC, zero coordination cost.\n\nIn this talk, we'll walk through our production benchmarks on AWS EKS and show how Watt delivers not just raw performance, but also multithreaded SSR, distributed caching, full observability with Prometheus, and seamless horizontal scaling—all while dramatically reducing your infrastructure costs.",
+      "date": "2026-04-17T11:20+00:00",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/TZ253tvooAGQPCxFLSS1E/74e5ec6ad1b01a5f0fcfcd7d8f13d0b1/paolo-medium_-_Paolo_Insogna.webp",
+      "twitter": "p_insogna",
+      "linkedin": "https://www.linkedin.com/in/pinsogna"
+    },
+    {
+      "name": "Lena Lekkou",
+      "bio": "Multidisciplinary Designer,\n\nHead of  Design  Department at SAE Athens\n\nPodcast host of the show “Life of Dev\",\n\nActive volunteer in local tech communities,\n\nPassionate mentor to young creatives",
+      "company": "SAE Athens",
+      "talkTitle": "Women in Tech the Panel",
+      "description": "Join us for an inspiring Women in Tech Panel spotlighting trailblazing leaders who are shaping the future of innovation. From engineering and product to entrepreneurship and AI, our speakers will share candid stories about their career journeys, lessons learned, and the challenges they’ve overcome in the tech industry. Whether you're just starting out or looking to level up your career, this conversation will offer practical insights, empowering advice, and meaningful connections to help you thrive in tech.",
+      "date": "2026-04-17T14:20+00:00",
+      "tags": [
+        "WomenInTech"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/bw3EDrBaSVYTjdT2sUrOK/6addad3a625071289a5af0dbb03c7b16/Lena-Square-Black.webp",
+      "twitter": "LenaLekkou",
+      "panel": true
+    },
+    {
+      "name": "Nestor Lopez",
+      "bio": "Néstor is a Spanish platform engineer at Zephyr Cloud focused on Module Federation, microfrontends, edge-native deployments, and distributed systems. He contributes to open source around tools such as tRPC, the T3 Stack, and Module Federation, and regularly writes and speaks about frontend architecture, infrastructure, and modern software delivery through his blog, talks, and engineering posts.",
+      "company": "Zephyr Cloud",
+      "talkTitle": "Federation of Specialists: From Module Federation to AI Orchestration",
+      "description": "The industry has already learned how to break frontend monoliths apart without breaking the product experience. A similar shift is now happening in AI. This talk traces the move from federated UI and composable runtime systems to a federation of AI specialists—and shows why production AI works better when agents have clear roles, controlled tools, workflow hooks, shared collaboration context, and policy boundaries.",
+      "date": "2026-04-17T14:55+00:00",
+      "tags": [
+        "AI agents",
+        "composable AI architecture",
+        "production AI systems"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/7Ggz61tIM5RUHzKpPfNrVm/7c5074d9acb083019ab7e8445989f329/_EPG8598-Editar_small_-_Nestor_Lopez.webp",
+      "twitter": "@nstlopez",
+      "bluesky": "@nst.blue",
+      "linkedin": "https://linkedin.com/in/nstlopez"
+    },
+    {
+      "name": "Robin Ginn",
+      "bio": "Robin Ginn is the Executive Director of the OpenJS Foundation. Robin advances the Foundation’s mission to drive adoption and ensure sustainability in the JS and web development ecosystem. Over the span of her career, Robin has led major initiatives advancing open source technologies, community development, and open standards.",
+      "company": "Executive Director @ OpenJS Foundation",
+      "talkTitle": "Silicon Valley Is Optional. GitHub Is Not. How to commit your way into the AI boom and how OpenJS is shaping responsible AI in the open.",
+      "description": "Silicon Valley is buzzing again. Dozens of nightly AI meetups, packed co-working spaces, and a lot of hype. But the real action isn’t in a postal code. It’s on GitHub.\nThis talk breaks down why JavaScript is powering the AI boom globally, and why you don’t need a Valley badge to be part of it. Just open an issue and commit.\nAI-assisted development is becoming part of modern workflows. The goal isn’t to redefine open source. It’s to make sure that as tools evolve, accountability, transparency, and maintainership stay intact.",
+      "date": "2026-04-15T20:35+00:00",
+      "location": "Tessl AI HQ",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/QqzUIHemaL2SMuDDAVElr/92cdc46e17c01e11c6b09ebeb3273dc4/Robin_Ginn.webp",
+      "twitter": "@rginn206",
+      "bluesky": "https://bsky.app/profile/rginn206.bsky.social",
+      "linkedin": "https://www.linkedin.com/in/rginn206/"
+    },
+    {
+      "name": "David Mark Clements",
+      "bio": "Writing JavaScript since '96, into Node.js from 0.8 (2012). Author, OSS Creator, Teacher, Consultant, Speaker helping to shape the ecosystem. Node Cookbook original and OpenJS Node.js Certifications lead. Driving innovation in the exciting peer-to-peer space, marking a new chapter in decentralized computing: pears.com.",
+      "company": "Tether",
+      "talkTitle": "Pear - P2Pify all the apps",
+      "description": "Use a module & a CLI to enable peer-to-peer deployments for any JS native application - such as an Electron or React Native app. Peer-to-peer over-the-air updates, production release flows with multisig for stakeholder sign-off, battle-tested in production with rapidly growing real-world apps with millions of new users per month. Open Source and free to use. No cloud, no fees, no outages.",
+      "date": "2026-04-17T11:45+00:00",
+      "tags": [
+        "p2p",
+        "peer-to-peer",
+        "ota-updates. p2p-ota",
+        "-updates pear"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5zFVo1E241LITeP1JSF5jc/bd134a1e938343a1ab694b2dc9528010/1190716_-_David_Clements.jpeg",
+      "twitter": "davidmarkclem"
+    },
+    {
+      "name": "James Moss",
+      "bio": "As a Member of Technical Staff at Tessl, James is building at the intersection of AI agents and context management. He brings over 20 years of startup experience, with the last decade focused mostly on React. A developer since uploading his first GeoCities site in 1999, you’ll always find him tinkering with the next exciting thing in tech.",
+      "company": "Tessl",
+      "talkTitle": "Pixel-Perfect AI: Making Agents Respect Your Figma Designs",
+      "description": "Letting AI generate your UI is fast and fun right up until you need it to implement something specific. Throw in strict design systems, your company's existing component library and responsive breakpoints, and the whole process usually falls apart. The good news is that there is a solution. We'll explore what works and what doesn't with agentic coding.",
+      "date": "2026-04-15T20:20+00:00",
+      "tags": [
+        "AgenticCoding",
+        "AIGeneratedUI",
+        "DesignSystems"
+      ],
+      "location": "Tessl AI HQ",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/1Lilwou3fALbhvnvbOxZ1C/eec78e9722daf3da79769b7e27fb536c/Headshot_-_James_Moss_-_Samantha_Hepburn.webp",
+      "linkedin": "https://www.linkedin.com/in/jimbomoss/"
+    },
+    {
+      "name": "Thomas Ankcorn",
+      "bio": "I work at Cloudflare as a Senior Systems Engineer on the Developer Platform",
+      "company": "Senior Systems Engineer on the Developer Platform",
+      "talkTitle": "Build your own clanker in 15 minutes",
+      "description": "The era of intelligence is upon us but most of the world still kind of looks mostly the same. I think this is because we are not unleashing our inner nerds enough. I want to inspire y'all to go away and build your own personal droid with some easy to replicate steps that can self build and do anything you want it to.",
+      "date": "2026-04-15T20:00+00:00",
+      "tags": [
+        "PersonalAI",
+        "DIYRobotics",
+        "FutureTech"
+      ],
+      "location": "Tessl AI HQ",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5Be07hdqJAuaoarezLOLfS/da0d04d5d75c327741b8f00d1526e446/ThomasAnkcorn.jpg",
+      "twitter": "thomasankcorn",
+      "linkedin": "https://www.linkedin.com/in/thomas-ankcorn-370889151/"
+    },
+    {
+      "name": "Nestor Lopez",
+      "bio": "Néstor is a Spanish platform engineer at Zephyr Cloud focused on Module Federation, microfrontends, edge-native deployments, and distributed systems. He contributes to open source around tools such as tRPC, the T3 Stack, and Module Federation, and regularly writes and speaks about frontend architecture, infrastructure, and modern software delivery through his blog, talks, and engineering posts.",
+      "company": "Zephyr Cloud",
+      "talkTitle": "Superpositioned Infraestructure and distributed Javascript",
+      "description": "Serverless reduced operational burden, but it never truly removed infrastructure. This talk explores superpositioned infrastructure and how Module Federation turns distributed JavaScript into a runtime-defined system, where compute and code are decoupled and services can be composed dynamically instead of being pinned to a single deployment surface.",
+      "date": "2026-04-15T18:40+00:00",
+      "tags": [
+        "Serverless",
+        "DistributedSystems",
+        "ModuleFederation"
+      ],
+      "location": "Tessl AI HQ",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/7Ggz61tIM5RUHzKpPfNrVm/7c5074d9acb083019ab7e8445989f329/_EPG8598-Editar_small_-_Nestor_Lopez.webp",
+      "twitter": "@nstlopez",
+      "bluesky": "@nst.blue",
+      "linkedin": "https://linkedin.com/in/nstlopez"
+    },
+    {
+      "name": "Scott Phillips",
+      "bio": "While working in a drawing office familiar to Rolls Royce, I was the first to put 64bit graphics into production in 2004 for Siemens, DeWalt & other household brands. Executive media training in London (2005-6). Design/developed multi-million gaming platform 2007-10. Won an innovation award in Egypt during the Arab-spring (M+H Awards 2012). Started learning AI in 2016. Microsoft Startup Hub AI scholarship 2023. Designer for UNICEF/the World Health Organization and National Geographic.",
+      "company": "Inspired Labs Ltd",
+      "talkTitle": "WebGPU & the Future of Distributed Compute",
+      "description": "How do you beat the RAM crisis AND save money? ...by using your customer's GPU on the edge! SHORT DESCRIPTION: After 8 years, WebGPU is now available in every browser. That means you can deploy Scientific Computing, workstation applications & high-end video editing & game console graphics — directly from your browser! Arm Ambassador, Scott Phillips will walk you through this new high-performance compute paradigm while pointing out pitfalls & gotchas that he faced while developing a State-of-the-Art Physics Engine designed to mirror  Nvidia's PhysX & Google's MuJoCo. All from the comfort of your favourite browser!",
+      "date": "2026-04-15T19:05+00:00",
+      "tags": [
+        "WebGPU",
+        "EdgeComputing",
+        "GPUAcceleration"
+      ],
+      "location": "Tessl AI HQ",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/4ZYRx7EkBoZmjVM88PMKIU/b001897e02bb878194f83d87a7f62b1e/scott-phillips-386x386_-_Inspired_Labs.webp",
+      "twitter": "inspiredlabs"
+    },
+    {
+      "name": "Tony Edwards",
+      "bio": "Tony Edwards is a software engineer with a love for all things web and a lecturer in Computer Science for Games at Plymouth University. Alongside constant code tinkering, he's a full-time cat carer, a part-time rapper, and an occasional morris dancer.",
+      "company": "Sapphire Holidays",
+      "talkTitle": "MC Second Hall",
+      "description": "Our amazing MC returns for CityJS London 2026",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/2dZDxCFI6Kc65teqs9ZPsV/dea874638f89fbaf4d36be722a8ef117/tonyedwards.jpg",
+      "twitter": "tonyedwardspz"
+    },
+    {
+      "name": "Dan Neciu",
+      "bio": "Neciu Dan is the technical co-founder and tech lead of CareerOS, where he spearheads the development, maintenance, and scaling of the main application. Bringing over 12 years of engineering expertise to the table, Dan has a proven track record in the tech industry, having previously served as a Senior Product Engineer at the New York E-commerce brand, AdoreMe, and as a Senior Software Engineer at the food delivery company, Glovo.\n\nBeyond his technical contributions, Dan is an esteemed international speaker and mentor. He passionately encourages best development practices, with a keen focus on testing, accessibility, and security. His recent speaking engagements include esteemed conferences like React Alicante, Utah JS, Techorama Belgium, and Frontmania Netherlands.",
+      "company": "Staff Engineer",
+      "talkTitle": "Implementing Server Driven UI",
+      "description": "What if your frontend didn’t need a deploy every time the product team wanted to rearrange a screen? Server-Driven UI lets the server send a declarative schema that the client renders at runtime — no redeploy needed.\nWe’ll cover schema design, mapping responses to a component registry, handling actions declaratively, and the real tradeoffs around type safety and DX. You’ll leave knowing when this pattern is worth it and how to adopt it incrementally.",
+      "date": "2026-04-17T11:20+01:00",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/2smSd4zkmLB8GoUZCcU7Cu/982cfefceda88b578e1591ff6a4b7b64/E97CB9A4-AB36-4AEB-9505-48FFA91BD546.webp",
+      "twitter": "neciudan"
+    },
+    {
+      "name": "Matheus Albuquerque",
+      "bio": "Matheus is a Staff Front-End Engineer at Medallia, building their surveys platform and helping them shape the customer experience market with React, and a Google Developer Expert in Web Performance.\nHis areas of interest include React and its ecosystem, JS and compile-to-JS languages, DX, and perceived performance optimization. Aside from public speaking about these, he also volunteers at TechLabs, teaching front-end development.",
+      "company": "Medallia",
+      "talkTitle": "A Decade and Counting: React’s Rhapsody of Life",
+      "description": "React has been shaping how we build user interfaces for over a decade. But its journey hasn’t exactly been smooth. From early skepticism around JSX and “mixing HTML with JavaScript” to debates about hooks, concurrency, and RSC, React has sparked more controversy—and innovation—than almost any library in the web ecosystem.\n\nIn this talk, we’ll revisit the past that led to React’s creation, explore the many “trouble in paradise” moments that challenged the community, and look at what’s coming next—from the React Compiler to new architectural ideas shaping the framework’s future.\n\nAlong the way, we’ll uncover the deeper ideas behind React—composition, predictable data flow, and powerful abstractions—and reflect on what a decade of React can teach us about the evolution of software itself.",
+      "date": "2026-04-17T14:50+01:00",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/3OiUaE8aPaUbmT2aEyhtJd/07979eddd59c81fa3c9cd0a9efad6795/1.jpg.jfif",
+      "twitter": "ythecombinator"
+    },
+    {
+      "name": "Faris Aziz",
+      "bio": "$3a",
+      "company": "Staff Software Engineer @ Smallpdf",
+      "talkTitle": "Building Resilient UIs with React",
+      "description": "$39",
+      "date": "2026-04-17T14:25+01:00",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/4mgE8pKW2iMaWC2MN7Hp8C/83d3248c543cdc944e4d984641c33db5/PHOTO-2025-04-08-11-30-36.webp",
+      "twitter": "@farisaziz12"
+    },
+    {
+      "name": "Julia Biro",
+      "bio": "is a Senior Developer Advocate in Infobip's brand new Developer Experience team. Maker and breaker of things, forever challenging the barriers to entry of tech. She loves solving problems, passing along the solutions, and creating resources for the developer community.",
+      "company": "Developer Experience",
+      "talkTitle": "Women in Tech the Panel",
+      "description": "Join us for an inspiring Women in Tech Panel spotlighting trailblazing leaders who are shaping the future of innovation. From engineering and product to entrepreneurship and AI, our speakers will share candid stories about their career journeys, lessons learned, and the challenges they’ve overcome in the tech industry. Whether you're just starting out or looking to level up your career, this conversation will offer practical insights, empowering advice, and meaningful connections to help you thrive in tech.",
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/1ib0dhmkxjDCnlYS4z0bT2/d15088a6be5942f2494e1562ee4f23df/juliabiro.jpeg"
+    },
+    {
+      "name": "Jim Dummett",
+      "bio": "Jim (overlookmotel) is an unashamed compiler nerd and performance nut. Member of core team of Oxc, the JS/TS parser/transpiler/minifier/linter that sits at the base of Vite’s stack. Came to software development by a circuitous route via film production, music festivals, and running a travelling cinema.",
+      "company": "Void(0)",
+      "talkTitle": "JS at the speed of Rust: Oxc",
+      "description": "If you write JS or TS, it probably feels like every tool you use daily is being rewritten in Rust.\n\nThis has advantages (have you heard that Rust is \"blazing fast\"?), but also potential downsides.\n\nThe evolution of JS from the dark days before async/await was fuelled by tooling written in JS. If our tools migrate to a language we don't know, will we lose the ability to control or customize them?\n\nIn this talk, I'll explain how Oxc is aiming to \"square the circle\" - providing rich customisation via plugins written in JS, but maintaining the exceptional performance of Rust - and take you into the nerdy details of memory layouts, allocators, garbage collection, and the tricks that make it possible to have our Rusty cake and eat it with a JS fork.",
+      "date": "2026-04-17T16:10+01:00",
+      "tags": [
+        "JavaScript",
+        "TypeScript",
+        "Rust"
+      ],
+      "imageUrl": "https://images.ctfassets.net/ny6tjshv9xhe/5UlEk6OLuYyZ4Asn8HgQOG/f88167c2c9b7d6b8f3d4c72e36ce948c/Jim_Dummett_headshot.webp",
+      "twitter": "overlook_motel",
+      "bluesky": "overlookmotel.bsky.social"
+    }
+  ]
+}

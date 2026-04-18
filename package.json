@@ -1,0 +1,41 @@
+{
+  "name": "cityjs-mcp",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "MCP App server for the CityJS London 2026 schedule, speakers, and talk search",
+  "private": true,
+  "scripts": {
+    "clean": "rimraf dist",
+    "build:schedule": "cross-env INPUT=src/schedule.html vite build",
+    "build:speakers": "cross-env INPUT=src/speakers.html vite build",
+    "build:speaker-detail": "cross-env INPUT=src/speaker-detail.html vite build",
+    "build": "tsc --noEmit && npm run clean && npm run build:schedule && npm run build:speakers && npm run build:speaker-detail",
+    "watch:schedule": "cross-env INPUT=src/schedule.html vite build --watch",
+    "watch:speakers": "cross-env INPUT=src/speakers.html vite build --watch",
+    "watch:speaker-detail": "cross-env INPUT=src/speaker-detail.html vite build --watch",
+    "watch": "concurrently \"npm:watch:schedule\" \"npm:watch:speakers\" \"npm:watch:speaker-detail\"",
+    "serve": "tsx --watch main.ts",
+    "serve:stdio": "tsx main.ts --stdio",
+    "start": "cross-env NODE_ENV=development npm run build && npm run serve",
+    "dev": "cross-env NODE_ENV=development concurrently \"npm run watch\" \"npm run serve\""
+  },
+  "dependencies": {
+    "@modelcontextprotocol/ext-apps": "^1.6.0",
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.6.0",
+    "concurrently": "^9.2.1",
+    "cross-env": "^10.1.0",
+    "rimraf": "^6.0.1",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.3",
+    "vite": "^8.0.8",
+    "vite-plugin-singlefile": "^2.3.3"
+  }
+}
